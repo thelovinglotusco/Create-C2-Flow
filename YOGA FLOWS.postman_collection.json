@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "7da47e79-d136-41ed-a633-f571d7280a5d",
+		"name": "YOGA FLOWS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "39419199",
+		"_collection_link": "https://www.postman.com/supply-administrator-5079735/1f6df2fa-0229-47c2-90b0-288e733c7626/collection/4u908f6/yoga-flows?action=share&source=collection_link&creator=39419199"
+	},
+	"item": [
+		{
+			"name": "create c2 flow",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"props\": [\"block\", \"strap\", \"blanket\"],\n  \"theme\": \"Growth and Grounding\",\n  \"flowSections\": [\n    {\n      \"sectionName\": \"INTEGRATIONS SERIES\",\n      \"asanas\": [\n        {\n          \"clock\": \"05:00\",\n          \"timeInPose\": \"30s\",\n          \"breath\": \"inhale\",\n          \"asanaName\": \"Mountain Pose\",\n          \"props\": [],\n          \"cues\": [\"Root down through your feet\", \"Reach up through your fingertips\"],\n          \"quotes\": [\"Stand tall and let your roots grow deep.\"],\n          \"isSunBPlus\": false\n        },\n        {\n          \"clock\": \"07:00\",\n          \"timeInPose\": \"3 breaths\",\n          \"breath\": \"exhale\",\n          \"asanaName\": \"Downward Dog\",\n          \"props\": [\"block\"],\n          \"cues\": [\"Press hands firmly into the mat\", \"Engage your core\"],\n          \"quotes\": [\"Breathe and find your foundation.\"],\n          \"isSunBPlus\": false\n        }\n      ]\n    },\n    {\n      \"sectionName\": \"SUN A - 1 SLOW, 1 FLOW\",\n      \"asanas\": [\n        {\n          \"clock\": \"10:00\",\n          \"timeInPose\": \"1 min\",\n          \"breath\": \"hold\",\n          \"asanaName\": \"Warrior I\",\n          \"props\": [\"strap\"],\n          \"cues\": [\"Keep your front knee stacked over your ankle\", \"Square your hips forward\"],\n          \"quotes\": [\"Step forward boldly into your potential.\"],\n          \"isSunBPlus\": false\n        }\n      ]\n    },\n    {\n      \"sectionName\": \"CORE SERIES\",\n      \"subSeries\": \"SUPINE\",\n      \"asanas\": [\n        {\n          \"clock\": \"20:00\",\n          \"timeInPose\": \"5 breaths\",\n          \"breath\": \"inhale\",\n          \"asanaName\": \"Boat Pose\",\n          \"props\": [],\n          \"cues\": [\"Lift through your chest\", \"Keep your spine long\"],\n          \"quotes\": [\"Strong core, strong mind.\"],\n          \"isSunBPlus\": false\n        }\n      ]\n    }\n  ],\n  \"classType\": \"CorePower Yoga 2\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://8816b8a1-fb5f-462f-9bb6-d03ad9f70e23.mock.pstmn.io/createC2Flow"
+			},
+			"response": [
+				{
+					"name": "Successful Flow Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"props\": [\"block\", \"strap\", \"blanket\"],\n  \"theme\": \"Growth and Grounding\",\n  \"flowSections\": [\n    {\n      \"sectionName\": \"INTEGRATIONS SERIES\",\n      \"asanas\": [\n        {\n          \"clock\": \"05:00\",\n          \"timeInPose\": \"30s\",\n          \"breath\": \"inhale\",\n          \"asanaName\": \"Mountain Pose\",\n          \"props\": [],\n          \"cues\": [\"Root down through your feet\", \"Reach up through your fingertips\"],\n          \"quotes\": [\"Stand tall and let your roots grow deep.\"],\n          \"isSunBPlus\": false\n        },\n        {\n          \"clock\": \"07:00\",\n          \"timeInPose\": \"3 breaths\",\n          \"breath\": \"exhale\",\n          \"asanaName\": \"Downward Dog\",\n          \"props\": [\"block\"],\n          \"cues\": [\"Press hands firmly into the mat\", \"Engage your core\"],\n          \"quotes\": [\"Breathe and find your foundation.\"],\n          \"isSunBPlus\": false\n        }\n      ]\n    },\n    {\n      \"sectionName\": \"SUN A - 1 SLOW, 1 FLOW\",\n      \"asanas\": [\n        {\n          \"clock\": \"10:00\",\n          \"timeInPose\": \"1 min\",\n          \"breath\": \"hold\",\n          \"asanaName\": \"Warrior I\",\n          \"props\": [\"strap\"],\n          \"cues\": [\"Keep your front knee stacked over your ankle\", \"Square your hips forward\"],\n          \"quotes\": [\"Step forward boldly into your potential.\"],\n          \"isSunBPlus\": false\n        }\n      ]\n    },\n    {\n      \"sectionName\": \"CORE SERIES\",\n      \"subSeries\": \"SUPINE\",\n      \"asanas\": [\n        {\n          \"clock\": \"20:00\",\n          \"timeInPose\": \"5 breaths\",\n          \"breath\": \"inhale\",\n          \"asanaName\": \"Boat Pose\",\n          \"props\": [],\n          \"cues\": [\"Lift through your chest\", \"Keep your spine long\"],\n          \"quotes\": [\"Strong core, strong mind.\"],\n          \"isSunBPlus\": false\n        }\n      ]\n    }\n  ],\n  \"classType\": \"CorePower Yoga 2\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://8816b8a1-fb5f-462f-9bb6-d03ad9f70e23.mock.pstmn.io/createC2Flow"
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
